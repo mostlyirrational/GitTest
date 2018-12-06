@@ -1,0 +1,1363 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane style="-fx-background-color: #888;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fxmlTest.BoardController">
+   <center>
+      <GridPane alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" style="-fx-background-color: #B9D2F0;" BorderPane.alignment="CENTER">
+         <columnConstraints>
+            <ColumnConstraints hgrow="NEVER" minWidth="-Infinity" prefWidth="80.0" />
+            <ColumnConstraints hgrow="NEVER" minWidth="-Infinity" prefWidth="60.0" />
+            <ColumnConstraints hgrow="NEVER" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="60.0" />
+            <ColumnConstraints hgrow="NEVER" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="60.0" />
+            <ColumnConstraints hgrow="NEVER" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="60.0" />
+            <ColumnConstraints hgrow="NEVER" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="60.0" />
+            <ColumnConstraints hgrow="NEVER" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="60.0" />
+            <ColumnConstraints hgrow="NEVER" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="60.0" />
+            <ColumnConstraints hgrow="NEVER" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="80.0" />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints minHeight="-Infinity" prefHeight="80.0" vgrow="NEVER" />
+            <RowConstraints maxHeight="-Infinity" minHeight="-Infinity" prefHeight="60.0" vgrow="NEVER" />
+            <RowConstraints maxHeight="-Infinity" minHeight="-Infinity" prefHeight="60.0" vgrow="NEVER" />
+            <RowConstraints maxHeight="-Infinity" minHeight="-Infinity" prefHeight="60.0" vgrow="NEVER" />
+            <RowConstraints maxHeight="-Infinity" minHeight="-Infinity" prefHeight="60.0" vgrow="NEVER" />
+            <RowConstraints maxHeight="-Infinity" minHeight="-Infinity" prefHeight="60.0" vgrow="NEVER" />
+            <RowConstraints maxHeight="-Infinity" minHeight="-Infinity" prefHeight="60.0" vgrow="NEVER" />
+            <RowConstraints maxHeight="-Infinity" minHeight="-Infinity" prefHeight="60.0" vgrow="NEVER" />
+            <RowConstraints maxHeight="-Infinity" minHeight="-Infinity" prefHeight="80.0" vgrow="NEVER" />
+         </rowConstraints>
+         <children>
+            <StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="80.0" prefWidth="60.0" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.rowIndex="8" GridPane.valignment="CENTER">
+               <children>
+                  <BorderPane style="-fx-border-color: #000; -fx-border-width: 2px 1px 2px 1px;" GridPane.columnIndex="9" GridPane.rowIndex="10">
+                     <center>
+                        <Label fx:id="S2Label" alignment="TOP_CENTER" text="Chance" textAlignment="CENTER" wrapText="true" BorderPane.alignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="10.0" />
+                           </font>
+                           <padding>
+                              <Insets left="5.0" right="5.0" />
+                           </padding>
+                        </Label>
+                     </center>
+                  </BorderPane>
+                  <StackPane>
+                     <children>
+                        <FlowPane alignment="CENTER" columnHalignment="CENTER" prefWrapLength="60.0" StackPane.alignment="CENTER">
+                           <children>
+                              <FlowPane fx:id="S2Piece" alignment="CENTER" columnHalignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="80.0" prefWidth="60.0" prefWrapLength="60.0" />
+                           </children>
+                        </FlowPane>
+                     </children>
+                     <padding>
+                        <Insets top="10.0" />
+                     </padding>
+                  </StackPane>
+               </children>
+            </StackPane>
+            <StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="80.0" prefWidth="60.0" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.rowIndex="8" GridPane.valignment="CENTER">
+               <children>
+                  <BorderPane style="-fx-border-color: #000; -fx-border-width: 2px 1px 2px 1px;" GridPane.columnIndex="9" GridPane.rowIndex="10">
+                     <center>
+                        <Label fx:id="S4Label" alignment="TOP_CENTER" text="Pay for BOOKS" textAlignment="CENTER" wrapText="true" BorderPane.alignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="10.0" />
+                           </font>
+                           <padding>
+                              <Insets left="5.0" right="5.0" />
+                           </padding>
+                        </Label>
+                     </center>
+                     <bottom>
+                        <Label fx:id="S4Price" alignment="CENTER" text="\$cost" BorderPane.alignment="CENTER">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                     </bottom>
+                  </BorderPane>
+                  <StackPane>
+                     <children>
+                        <FlowPane alignment="CENTER" columnHalignment="CENTER" prefWrapLength="60.0" StackPane.alignment="CENTER">
+                           <children>
+                              <FlowPane fx:id="S4Piece" alignment="CENTER" columnHalignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="80.0" prefWidth="60.0" prefWrapLength="60.0" />
+                           </children>
+                        </FlowPane>
+                     </children>
+                     <padding>
+                        <Insets top="10.0" />
+                     </padding>
+                  </StackPane>
+               </children>
+            </StackPane>
+            <StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="80.0" prefWidth="60.0" rotate="90.0" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="CENTER">
+               <children>
+                  <StackPane>
+                     <children>
+                        <FlowPane alignment="CENTER" columnHalignment="CENTER" prefWrapLength="60.0" StackPane.alignment="CENTER">
+                           <children>
+                              <FlowPane fx:id="S11Piece" alignment="CENTER" columnHalignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="80.0" prefWidth="60.0" prefWrapLength="60.0" />
+                           </children>
+                        </FlowPane>
+                     </children>
+                     <padding>
+                        <Insets top="10.0" />
+                     </padding>
+                  </StackPane>
+                  <BorderPane style="-fx-border-color: #000; -fx-border-width: 2px 1px 2px 1px;">
+                     <center>
+                        <Label fx:id="S11Label" alignment="TOP_CENTER" text="Chance" textAlignment="CENTER" wrapText="true" BorderPane.alignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="10.0" />
+                           </font>
+                           <padding>
+                              <Insets left="5.0" right="5.0" />
+                           </padding>
+                        </Label>
+                     </center>
+                  </BorderPane>
+               </children>
+            </StackPane>
+            <StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="80.0" prefWidth="60.0" GridPane.columnIndex="7" GridPane.halignment="CENTER" GridPane.rowIndex="8" GridPane.valignment="CENTER">
+               <children>
+                  <BorderPane style="-fx-border-color: #000; -fx-border-width: 2px 1px 2px 1px;" GridPane.columnIndex="9" GridPane.rowIndex="10">
+                     <bottom>
+                        <Label fx:id="S1Price" alignment="CENTER" text="\$price" BorderPane.alignment="CENTER">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                     </bottom>
+                     <center>
+                        <Label fx:id="S1Label" alignment="TOP_CENTER" text="Property Name" textAlignment="CENTER" wrapText="true" BorderPane.alignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="9.0" />
+                           </font>
+                           <padding>
+                              <Insets left="5.0" right="5.0" />
+                           </padding>
+                        </Label>
+                     </center>
+                     <top>
+                        <StackPane maxHeight="-Infinity" minHeight="-Infinity" prefHeight="20.0">
+                           <children>
+                              <HBox alignment="CENTER" fillHeight="false" spacing="2.0" style="-fx-background-color: #945439; -fx-border-color: #000; -fx-border-width: 0 0 2px 0;">
+                                 <padding>
+                                    <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+                                 </padding>
+                              </HBox>
+                           </children>
+                        </StackPane>
+                     </top>
+                  </BorderPane>
+                  <StackPane>
+                     <children>
+                        <FlowPane alignment="CENTER" columnHalignment="CENTER" prefWrapLength="60.0" StackPane.alignment="CENTER">
+                           <children>
+                              <FlowPane fx:id="S1Piece" alignment="CENTER" columnHalignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="80.0" prefWidth="60.0" prefWrapLength="60.0" />
+                           </children>
+                        </FlowPane>
+                     </children>
+                     <padding>
+                        <Insets top="10.0" />
+                     </padding>
+                  </StackPane>
+               </children>
+            </StackPane>
+            <StackPane GridPane.columnIndex="8" GridPane.halignment="CENTER" GridPane.rowIndex="8" GridPane.valignment="CENTER">
+               <children>
+                  <BorderPane prefHeight="200.0" prefWidth="200.0" style="-fx-border-color: #000; -fx-border-width: 1px 2px 2px 1px;" GridPane.columnIndex="9" GridPane.rowIndex="10">
+                     <center>
+                        <Label fx:id="S0Label" alignment="TOP_CENTER" rotate="-45.0" text="GO" textAlignment="CENTER" wrapText="true" BorderPane.alignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="24.0" />
+                           </font>
+                           <padding>
+                              <Insets left="5.0" right="5.0" />
+                           </padding>
+                        </Label>
+                     </center>
+                  </BorderPane>
+                  <StackPane>
+                     <children>
+                        <FlowPane fx:id="S0Piece" alignment="CENTER" columnHalignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="80.0" prefWidth="60.0" prefWrapLength="60.0" StackPane.alignment="CENTER" />
+                     </children>
+                  </StackPane>
+               </children>
+            </StackPane>
+            <StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="80.0" prefWidth="60.0" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.rowIndex="8" GridPane.valignment="CENTER">
+               <children>
+                  <BorderPane style="-fx-border-color: #000; -fx-border-width: 2px 1px 2px 1px;" GridPane.columnIndex="9" GridPane.rowIndex="10">
+                     <bottom>
+                        <Label fx:id="S3Price" alignment="CENTER" text="\$price" BorderPane.alignment="CENTER">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                     </bottom>
+                     <center>
+                        <Label fx:id="S3Label" alignment="TOP_CENTER" text="Property Name" textAlignment="CENTER" wrapText="true" BorderPane.alignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="9.0" />
+                           </font>
+                           <padding>
+                              <Insets left="5.0" right="5.0" />
+                           </padding>
+                        </Label>
+                     </center>
+                     <top>
+                        <StackPane maxHeight="-Infinity" minHeight="-Infinity" prefHeight="20.0">
+                           <children>
+                              <HBox alignment="CENTER" fillHeight="false" spacing="2.0" style="-fx-background-color: #945439; -fx-border-color: #000; -fx-border-width: 0 0 2px 0;">
+                                 <padding>
+                                    <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+                                 </padding>
+                              </HBox>
+                           </children>
+                        </StackPane>
+                     </top>
+                  </BorderPane>
+                  <StackPane>
+                     <children>
+                        <FlowPane alignment="CENTER" columnHalignment="CENTER" prefWrapLength="60.0" StackPane.alignment="CENTER">
+                           <children>
+                              <FlowPane fx:id="S3Piece" alignment="CENTER" columnHalignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="80.0" prefWidth="60.0" prefWrapLength="60.0" />
+                           </children>
+                        </FlowPane>
+                     </children>
+                     <padding>
+                        <Insets top="10.0" />
+                     </padding>
+                  </StackPane>
+               </children>
+            </StackPane>
+            <StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="80.0" prefWidth="60.0" GridPane.columnIndex="3" GridPane.rowIndex="8">
+               <children>
+                  <BorderPane style="-fx-border-color: #000; -fx-border-width: 2px 1px 2px 1px;" GridPane.columnIndex="9" GridPane.rowIndex="10">
+                     <bottom>
+                        <Label fx:id="S5Price" alignment="CENTER" text="\$price" BorderPane.alignment="CENTER">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                     </bottom>
+                     <center>
+                        <Label fx:id="S5Label" alignment="TOP_CENTER" text="Property Name" textAlignment="CENTER" wrapText="true" BorderPane.alignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="9.0" />
+                           </font>
+                           <padding>
+                              <Insets left="5.0" right="5.0" />
+                           </padding>
+                        </Label>
+                     </center>
+                     <top>
+                        <StackPane maxHeight="-Infinity" minHeight="-Infinity" prefHeight="20.0">
+                           <children>
+                              <HBox alignment="CENTER" fillHeight="false" spacing="2.0" style="-fx-background-color: #A9E1FA; -fx-border-color: #000; -fx-border-width: 0 0 2px 0;">
+                                 <padding>
+                                    <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+                                 </padding>
+                              </HBox>
+                           </children>
+                        </StackPane>
+                     </top>
+                  </BorderPane>
+                  <StackPane>
+                     <children>
+                        <FlowPane alignment="CENTER" columnHalignment="CENTER" prefWrapLength="60.0" StackPane.alignment="CENTER">
+                           <children>
+                              <FlowPane fx:id="S5Piece" alignment="CENTER" columnHalignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="80.0" prefWidth="60.0" prefWrapLength="60.0" />
+                           </children>
+                        </FlowPane>
+                     </children>
+                     <padding>
+                        <Insets top="10.0" />
+                     </padding>
+                  </StackPane>
+               </children>
+            </StackPane>
+            <StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="80.0" prefWidth="60.0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="8" GridPane.valignment="CENTER">
+               <children>
+                  <BorderPane style="-fx-border-color: #000; -fx-border-width: 2px 1px 2px 1px;" GridPane.columnIndex="9" GridPane.rowIndex="10">
+                     <bottom>
+                        <Label fx:id="S7Price" alignment="CENTER" text="\$price" BorderPane.alignment="CENTER">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                     </bottom>
+                     <center>
+                        <Label fx:id="S7Label" alignment="TOP_CENTER" text="Property Name" textAlignment="CENTER" wrapText="true" BorderPane.alignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="9.0" />
+                           </font>
+                           <padding>
+                              <Insets left="5.0" right="5.0" />
+                           </padding>
+                        </Label>
+                     </center>
+                     <top>
+                        <StackPane maxHeight="-Infinity" minHeight="-Infinity" prefHeight="20.0">
+                           <children>
+                              <HBox alignment="CENTER" fillHeight="false" spacing="2.0" style="-fx-background-color: #A9E1FA; -fx-border-color: #000; -fx-border-width: 0 0 2px 0;">
+                                 <padding>
+                                    <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+                                 </padding>
+                              </HBox>
+                           </children>
+                        </StackPane>
+                     </top>
+                  </BorderPane>
+                  <StackPane>
+                     <children>
+                        <FlowPane alignment="CENTER" columnHalignment="CENTER" prefWrapLength="60.0" StackPane.alignment="CENTER">
+                           <children>
+                              <FlowPane fx:id="S7Piece" alignment="CENTER" columnHalignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="80.0" prefWidth="60.0" prefWrapLength="60.0" />
+                           </children>
+                        </FlowPane>
+                     </children>
+                     <padding>
+                        <Insets top="10.0" />
+                     </padding>
+                  </StackPane>
+               </children>
+            </StackPane>
+            <StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="80.0" prefWidth="60.0" GridPane.columnIndex="2" GridPane.rowIndex="8">
+               <children>
+                  <BorderPane style="-fx-border-color: #000; -fx-border-width: 2px 1px 2px 1px;" GridPane.columnIndex="9" GridPane.rowIndex="10">
+                     <center>
+                        <Label fx:id="S6Label" alignment="TOP_CENTER" text="Community Chest" textAlignment="CENTER" wrapText="true" BorderPane.alignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="9.0" />
+                           </font>
+                           <padding>
+                              <Insets left="4.0" right="4.0" />
+                           </padding>
+                        </Label>
+                     </center>
+                  </BorderPane>
+                  <StackPane>
+                     <children>
+                        <FlowPane fx:id="S6Piece" alignment="CENTER" columnHalignment="CENTER" prefWrapLength="60.0" StackPane.alignment="CENTER" />
+                     </children>
+                     <padding>
+                        <Insets top="10.0" />
+                     </padding>
+                  </StackPane>
+               </children>
+            </StackPane>
+            <StackPane rotate="90.0" GridPane.halignment="CENTER" GridPane.rowIndex="8" GridPane.valignment="CENTER">
+               <children>
+                  <GridPane alignment="CENTER" style="-fx-border-color: #000; -fx-border-width: 1px 2px 2px1px;">
+                    <columnConstraints>
+                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                        <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                      <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                     <children>
+                        <HBox alignment="CENTER" style="-fx-background-color: orange; -fx-border-color: #000; -fx-border-width: 0 2px 2px 0;" GridPane.columnSpan="2" GridPane.rowSpan="2">
+                           <children>
+                              <Label fx:id="S8Label" alignment="CENTER" rotate="-45.0" text="Withdraw" textAlignment="CENTER">
+                                 <font>
+                                    <Font name="System Bold" size="9.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <Label alignment="CENTER" text="Drop/ Add" textAlignment="CENTER" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="10.0" />
+                           </font>
+                        </Label>
+                        <Label alignment="CENTER_RIGHT" minWidth="60.0" rotate="-90.0" text="Week" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowSpan="3" GridPane.valignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="10.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </GridPane>
+                  <StackPane>
+                     <children>
+                        <FlowPane fx:id="S8Piece" alignment="BOTTOM_LEFT" columnHalignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" orientation="VERTICAL" prefHeight="80.0" prefWidth="80.0" prefWrapLength="60.0" rotate="270.0" StackPane.alignment="BOTTOM_LEFT">
+                           <StackPane.margin>
+                              <Insets right="6.0" />
+                           </StackPane.margin>
+                        </FlowPane>
+                     </children>
+                  </StackPane>
+                  <StackPane>
+                     <children>
+                        <FlowPane fx:id="S8aPiece" alignment="TOP_RIGHT" columnHalignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="60.0" prefWidth="60.0" prefWrapLength="60.0" rotate="-90.0" StackPane.alignment="TOP_LEFT">
+                           <StackPane.margin>
+                              <Insets left="2.0" right="2.0" top="2.0" />
+                           </StackPane.margin>
+                        </FlowPane>
+                     </children>
+                  </StackPane>
+               </children>
+            </StackPane>
+            <StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="80.0" prefWidth="60.0" rotate="90.0" GridPane.halignment="CENTER" GridPane.rowIndex="7" GridPane.valignment="CENTER">
+               <children>
+                  <BorderPane style="-fx-border-color: #000; -fx-border-width: 2px 1px 2px 1px;" GridPane.columnIndex="9" GridPane.rowIndex="10">
+                     <bottom>
+                        <Label fx:id="S9Price" alignment="CENTER" text="\$price" BorderPane.alignment="CENTER">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                     </bottom>
+                     <center>
+                        <Label fx:id="S9Label" alignment="TOP_CENTER" text="Property Name" textAlignment="CENTER" wrapText="true" BorderPane.alignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="9.0" />
+                           </font>
+                           <padding>
+                              <Insets left="5.0" right="5.0" />
+                           </padding>
+                        </Label>
+                     </center>
+                     <top>
+                        <StackPane maxHeight="-Infinity" minHeight="-Infinity" prefHeight="20.0">
+                           <children>
+                              <HBox alignment="CENTER" fillHeight="false" spacing="2.0" style="-fx-background-color: #D83B94; -fx-border-color: #000; -fx-border-width: 0 0 2px 0;">
+                                 <padding>
+                                    <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+                                 </padding>
+                              </HBox>
+                           </children>
+                        </StackPane>
+                     </top>
+                  </BorderPane>
+                  <StackPane>
+                     <children>
+                        <FlowPane fx:id="S9Piece" alignment="CENTER" columnHalignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="80.0" prefWidth="60.0" prefWrapLength="60.0" />
+                     </children>
+                     <padding>
+                        <Insets top="10.0" />
+                     </padding>
+                  </StackPane>
+               </children>
+            </StackPane>
+            <StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="80.0" prefWidth="60.0" rotate="90.0" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="CENTER">
+               <children>
+                  <BorderPane style="-fx-border-color: #000; -fx-border-width: 2px 1px 2px 1px;" GridPane.columnIndex="9" GridPane.rowIndex="10">
+                     <bottom>
+                        <Label fx:id="S10Price" alignment="CENTER" text="\$price" BorderPane.alignment="CENTER">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                     </bottom>
+                     <center>
+                        <Label fx:id="S10Label" alignment="TOP_CENTER" text="Property Name" textAlignment="CENTER" wrapText="true" BorderPane.alignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="9.0" />
+                           </font>
+                           <padding>
+                              <Insets left="5.0" right="5.0" />
+                           </padding>
+                        </Label>
+                     </center>
+                     <top>
+                        <StackPane maxHeight="-Infinity" minHeight="-Infinity" prefHeight="20.0">
+                           <children>
+                              <HBox alignment="CENTER" fillHeight="false" spacing="2.0" style="-fx-background-color: #D83B94; -fx-border-color: #000; -fx-border-width: 0 0 2px 0;">
+                                 <padding>
+                                    <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+                                 </padding>
+                              </HBox>
+                           </children>
+                        </StackPane>
+                     </top>
+                  </BorderPane>
+                  <StackPane>
+                     <children>
+                        <FlowPane alignment="CENTER" columnHalignment="CENTER" prefWrapLength="60.0" StackPane.alignment="CENTER">
+                           <children>
+                              <FlowPane fx:id="S10Piece" alignment="CENTER" columnHalignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="80.0" prefWidth="60.0" prefWrapLength="60.0" />
+                           </children>
+                        </FlowPane>
+                     </children>
+                     <padding>
+                        <Insets top="10.0" />
+                     </padding>
+                  </StackPane>
+               </children>
+            </StackPane>
+            <StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="80.0" prefWidth="60.0" rotate="90.0" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
+               <children>
+                  <BorderPane style="-fx-border-color: #000; -fx-border-width: 2px 1px 2px 1px;" GridPane.columnIndex="9" GridPane.rowIndex="10">
+                     <bottom>
+                        <Label fx:id="S12Price" alignment="CENTER" text="\$price" BorderPane.alignment="CENTER">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                     </bottom>
+                     <center>
+                        <Label fx:id="S12Label" alignment="TOP_CENTER" text="Property Name" textAlignment="CENTER" wrapText="true" BorderPane.alignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="9.0" />
+                           </font>
+                           <padding>
+                              <Insets left="5.0" right="5.0" />
+                           </padding>
+                        </Label>
+                     </center>
+                     <top>
+                        <StackPane maxHeight="-Infinity" minHeight="-Infinity" prefHeight="20.0">
+                           <children>
+                              <HBox alignment="CENTER" fillHeight="false" spacing="2.0" style="-fx-background-color: #D83B94; -fx-border-color: #000; -fx-border-width: 0 0 2px 0;">
+                                 <padding>
+                                    <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+                                 </padding>
+                              </HBox>
+                           </children>
+                        </StackPane>
+                     </top>
+                  </BorderPane>
+                  <StackPane>
+                     <children>
+                        <FlowPane alignment="CENTER" columnHalignment="CENTER" prefWrapLength="60.0" StackPane.alignment="CENTER">
+                           <children>
+                              <FlowPane fx:id="S12Piece" alignment="CENTER" columnHalignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="80.0" prefWidth="60.0" prefWrapLength="60.0" />
+                           </children>
+                        </FlowPane>
+                     </children>
+                     <padding>
+                        <Insets top="10.0" />
+                     </padding>
+                  </StackPane>
+               </children>
+            </StackPane>
+            <StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="80.0" prefWidth="60.0" rotate="90.0" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+               <children>
+                  <BorderPane style="-fx-border-color: #000; -fx-border-width: 2px 1px 2px 1px;" GridPane.columnIndex="9" GridPane.rowIndex="10">
+                     <bottom>
+                        <Label fx:id="S13Price" alignment="CENTER" text="\$price" BorderPane.alignment="CENTER">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                     </bottom>
+                     <center>
+                        <Label fx:id="S13Label" alignment="TOP_CENTER" text="Property Name" textAlignment="CENTER" wrapText="true" BorderPane.alignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="9.0" />
+                           </font>
+                           <padding>
+                              <Insets left="5.0" right="5.0" />
+                           </padding>
+                        </Label>
+                     </center>
+                     <top>
+                        <StackPane maxHeight="-Infinity" minHeight="-Infinity" prefHeight="20.0">
+                           <children>
+                              <HBox alignment="CENTER" fillHeight="false" spacing="2.0" style="-fx-background-color: #F8941C; -fx-border-color: #000; -fx-border-width: 0 0 2px 0;">
+                                 <padding>
+                                    <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+                                 </padding>
+                              </HBox>
+                           </children>
+                        </StackPane>
+                     </top>
+                  </BorderPane>
+                  <StackPane>
+                     <children>
+                        <FlowPane alignment="CENTER" columnHalignment="CENTER" prefWrapLength="60.0" StackPane.alignment="CENTER">
+                           <children>
+                              <FlowPane fx:id="S13Piece" alignment="CENTER" columnHalignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="80.0" prefWidth="60.0" prefWrapLength="60.0" />
+                           </children>
+                        </FlowPane>
+                     </children>
+                     <padding>
+                        <Insets top="10.0" />
+                     </padding>
+                  </StackPane>
+               </children>
+            </StackPane>
+            <StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="80.0" prefWidth="60.0" rotate="90.0" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+               <children>
+                  <BorderPane style="-fx-border-color: #000; -fx-border-width: 2px 1px 2px 1px;" GridPane.columnIndex="9" GridPane.rowIndex="10">
+                     <bottom>
+                        <Label fx:id="S15Price" alignment="CENTER" text="\$price" BorderPane.alignment="CENTER">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                     </bottom>
+                     <center>
+                        <Label fx:id="S15Label" alignment="TOP_CENTER" text="Property Name" textAlignment="CENTER" wrapText="true" BorderPane.alignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="9.0" />
+                           </font>
+                           <padding>
+                              <Insets left="5.0" right="5.0" />
+                           </padding>
+                        </Label>
+                     </center>
+                     <top>
+                        <StackPane maxHeight="-Infinity" minHeight="-Infinity" prefHeight="20.0">
+                           <children>
+                              <HBox alignment="CENTER" fillHeight="false" spacing="2.0" style="-fx-background-color: #F8941C; -fx-border-color: #000; -fx-border-width: 0 0 2px 0;">
+                                 <padding>
+                                    <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+                                 </padding>
+                              </HBox>
+                           </children>
+                        </StackPane>
+                     </top>
+                  </BorderPane>
+                  <StackPane>
+                     <children>
+                        <FlowPane alignment="CENTER" columnHalignment="CENTER" prefWrapLength="60.0" StackPane.alignment="CENTER">
+                           <children>
+                              <FlowPane fx:id="S15Piece" alignment="CENTER" columnHalignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="80.0" prefWidth="60.0" prefWrapLength="60.0" />
+                           </children>
+                        </FlowPane>
+                     </children>
+                     <padding>
+                        <Insets top="10.0" />
+                     </padding>
+                  </StackPane>
+               </children>
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+            </StackPane>
+            <StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="80.0" prefWidth="60.0" rotate="90.0" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+               <children>
+                  <BorderPane style="-fx-border-color: #000; -fx-border-width: 2px 1px 2px 1px;" GridPane.columnIndex="9" GridPane.rowIndex="10">
+                     <center>
+                        <Label fx:id="S14Label" alignment="TOP_CENTER" text="Community Chest" textAlignment="CENTER" wrapText="true" BorderPane.alignment="CENTER">
+                           <padding>
+                              <Insets left="4.0" right="4.0" />
+                           </padding>
+                           <font>
+                              <Font name="System Bold" size="9.0" />
+                           </font>
+                        </Label>
+                     </center>
+                  </BorderPane>
+                  <StackPane>
+                     <children>
+                        <FlowPane fx:id="S14Piece" alignment="CENTER" columnHalignment="CENTER" prefWrapLength="60.0" StackPane.alignment="CENTER" />
+                     </children>
+                     <padding>
+                        <Insets top="10.0" />
+                     </padding>
+                  </StackPane>
+               </children>
+            </StackPane>
+            <StackPane rotate="180.0" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+               <children>
+                  <BorderPane prefHeight="200.0" prefWidth="200.0" style="-fx-border-color: #000; -fx-border-width: 1px 2px 2px 1px;" GridPane.columnIndex="9" GridPane.rowIndex="10">
+                     <center>
+                        <Label fx:id="S16Label" alignment="TOP_CENTER" rotate="-45.0" text="Spring Break" textAlignment="CENTER" wrapText="true" BorderPane.alignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font>
+                           <padding>
+                              <Insets left="5.0" right="5.0" />
+                           </padding>
+                        </Label>
+                     </center>
+                  </BorderPane>
+                  <StackPane>
+                     <children>
+                        <FlowPane fx:id="S16Piece" alignment="CENTER" columnHalignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="80.0" prefWidth="60.0" prefWrapLength="60.0" StackPane.alignment="CENTER" />
+                     </children>
+                  </StackPane>
+               </children>
+            </StackPane>
+            <StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="80.0" prefWidth="60.0" rotate="180.0" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+               <children>
+                  <BorderPane style="-fx-border-color: #000; -fx-border-width: 2px 1px 2px 1px;" GridPane.columnIndex="9" GridPane.rowIndex="10">
+                     <bottom>
+                        <Label fx:id="S17Price" alignment="CENTER" text="\$price" BorderPane.alignment="CENTER">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                     </bottom>
+                     <center>
+                        <Label fx:id="S17Label" alignment="TOP_CENTER" text="Property Name" textAlignment="CENTER" wrapText="true" BorderPane.alignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="9.0" />
+                           </font>
+                           <padding>
+                              <Insets left="5.0" right="5.0" />
+                           </padding>
+                        </Label>
+                     </center>
+                     <top>
+                        <StackPane maxHeight="-Infinity" minHeight="-Infinity" prefHeight="20.0">
+                           <children>
+                              <HBox alignment="CENTER" fillHeight="false" spacing="2.0" style="-fx-background-color: #ED1B26; -fx-border-color: #000; -fx-border-width: 0 0 2px 0;">
+                                 <padding>
+                                    <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+                                 </padding>
+                              </HBox>
+                           </children>
+                        </StackPane>
+                     </top>
+                  </BorderPane>
+                  <StackPane>
+                     <children>
+                        <FlowPane alignment="CENTER" columnHalignment="CENTER" prefWrapLength="60.0" StackPane.alignment="CENTER">
+                           <children>
+                              <FlowPane fx:id="S17Piece" alignment="CENTER" columnHalignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="80.0" prefWidth="60.0" prefWrapLength="60.0" />
+                           </children>
+                        </FlowPane>
+                     </children>
+                     <padding>
+                        <Insets top="10.0" />
+                     </padding>
+                  </StackPane>
+               </children>
+            </StackPane>
+            <StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="80.0" prefWidth="60.0" rotate="180.0" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+               <children>
+                  <BorderPane style="-fx-border-color: #000; -fx-border-width: 2px 1px 2px 1px;" GridPane.columnIndex="9" GridPane.rowIndex="10">
+                     <bottom>
+                        <Label fx:id="S18Price" alignment="CENTER" text="\$price" BorderPane.alignment="CENTER">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                     </bottom>
+                     <center>
+                        <Label fx:id="S18Label" alignment="TOP_CENTER" text="Property Name" textAlignment="CENTER" wrapText="true" BorderPane.alignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="9.0" />
+                           </font>
+                           <padding>
+                              <Insets left="5.0" right="5.0" />
+                           </padding>
+                        </Label>
+                     </center>
+                     <top>
+                        <StackPane maxHeight="-Infinity" minHeight="-Infinity" prefHeight="20.0">
+                           <children>
+                              <HBox alignment="CENTER" fillHeight="false" spacing="2.0" style="-fx-background-color: #ED1B26; -fx-border-color: #000; -fx-border-width: 0 0 2px 0;">
+                                 <padding>
+                                    <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+                                 </padding>
+                              </HBox>
+                           </children>
+                        </StackPane>
+                     </top>
+                  </BorderPane>
+                  <StackPane>
+                     <children>
+                        <FlowPane alignment="CENTER" columnHalignment="CENTER" prefWrapLength="60.0" StackPane.alignment="CENTER">
+                           <children>
+                              <FlowPane fx:id="S18Piece" alignment="CENTER" columnHalignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="80.0" prefWidth="60.0" prefWrapLength="60.0" />
+                           </children>
+                        </FlowPane>
+                     </children>
+                     <padding>
+                        <Insets top="10.0" />
+                     </padding>
+                  </StackPane>
+               </children>
+            </StackPane>
+            <StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="80.0" prefWidth="60.0" rotate="180.0" GridPane.columnIndex="3" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+               <children>
+                  <BorderPane style="-fx-border-color: #000; -fx-border-width: 2px 1px 2px 1px;">
+                     <center>
+                        <Label fx:id="S19Label" alignment="TOP_CENTER" text="Chance" textAlignment="CENTER" wrapText="true" BorderPane.alignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="10.0" />
+                           </font>
+                           <padding>
+                              <Insets left="5.0" right="5.0" />
+                           </padding>
+                        </Label>
+                     </center>
+                  </BorderPane>
+                  <StackPane>
+                     <children>
+                        <FlowPane alignment="CENTER" columnHalignment="CENTER" prefWrapLength="60.0" StackPane.alignment="CENTER">
+                           <children>
+                              <FlowPane fx:id="S19Piece" alignment="CENTER" columnHalignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="80.0" prefWidth="60.0" prefWrapLength="60.0" />
+                           </children>
+                        </FlowPane>
+                     </children>
+                     <padding>
+                        <Insets top="10.0" />
+                     </padding>
+                  </StackPane>
+               </children>
+            </StackPane>
+            <StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="80.0" prefWidth="60.0" rotate="180180.0" GridPane.columnIndex="4" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+               <children>
+                  <BorderPane style="-fx-border-color: #000; -fx-border-width: 2px 1px 2px 1px;" GridPane.columnIndex="9" GridPane.rowIndex="10">
+                     <bottom>
+                        <Label fx:id="S20Price" alignment="CENTER" text="\$price" BorderPane.alignment="CENTER">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                     </bottom>
+                     <center>
+                        <Label fx:id="S20Label" alignment="TOP_CENTER" text="Property Name" textAlignment="CENTER" wrapText="true" BorderPane.alignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="9.0" />
+                           </font>
+                           <padding>
+                              <Insets left="5.0" right="5.0" />
+                           </padding>
+                        </Label>
+                     </center>
+                     <top>
+                        <StackPane maxHeight="-Infinity" minHeight="-Infinity" prefHeight="20.0">
+                           <children>
+                              <HBox alignment="CENTER" fillHeight="false" spacing="2.0" style="-fx-background-color: #FFF102; -fx-border-color: #000; -fx-border-width: 0 0 2px 0;">
+                                 <padding>
+                                    <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+                                 </padding>
+                              </HBox>
+                           </children>
+                        </StackPane>
+                     </top>
+                  </BorderPane>
+                  <StackPane>
+                     <children>
+                        <FlowPane alignment="CENTER" columnHalignment="CENTER" prefWrapLength="60.0" StackPane.alignment="CENTER">
+                           <children>
+                              <FlowPane fx:id="S20Piece" alignment="CENTER" columnHalignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="80.0" prefWidth="60.0" prefWrapLength="60.0" />
+                           </children>
+                        </FlowPane>
+                     </children>
+                     <padding>
+                        <Insets top="10.0" />
+                     </padding>
+                  </StackPane>
+               </children>
+            </StackPane>
+            <StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="80.0" prefWidth="60.0" rotate="180.0" GridPane.columnIndex="5" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+               <children>
+                  <BorderPane style="-fx-border-color: #000; -fx-border-width: 2px 1px 2px 1px;" GridPane.columnIndex="9" GridPane.rowIndex="10">
+                     <bottom>
+                        <Label fx:id="S21Price" alignment="CENTER" text="\$price" BorderPane.alignment="CENTER">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                     </bottom>
+                     <center>
+                        <Label fx:id="S21Label" alignment="TOP_CENTER" text="Property Name" textAlignment="CENTER" wrapText="true" BorderPane.alignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="9.0" />
+                           </font>
+                           <padding>
+                              <Insets left="5.0" right="5.0" />
+                           </padding>
+                        </Label>
+                     </center>
+                     <top>
+                        <StackPane maxHeight="-Infinity" minHeight="-Infinity" prefHeight="20.0">
+                           <children>
+                              <HBox alignment="CENTER" fillHeight="false" spacing="2.0" style="-fx-background-color: #FFF102; -fx-border-color: #000; -fx-border-width: 0 0 2px 0;">
+                                 <padding>
+                                    <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+                                 </padding>
+                              </HBox>
+                           </children>
+                        </StackPane>
+                     </top>
+                  </BorderPane>
+                  <StackPane>
+                     <children>
+                        <FlowPane alignment="CENTER" columnHalignment="CENTER" prefWrapLength="60.0" StackPane.alignment="CENTER">
+                           <children>
+                              <FlowPane fx:id="S21Piece" alignment="CENTER" columnHalignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="80.0" prefWidth="60.0" prefWrapLength="60.0" />
+                           </children>
+                        </FlowPane>
+                     </children>
+                     <padding>
+                        <Insets top="10.0" />
+                     </padding>
+                  </StackPane>
+               </children>
+            </StackPane>
+            <StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="80.0" prefWidth="60.0" rotate="180.0" GridPane.columnIndex="7" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+               <children>
+                  <BorderPane style="-fx-border-color: #000; -fx-border-width: 2px 1px 2px 1px;" GridPane.columnIndex="9" GridPane.rowIndex="10">
+                     <bottom>
+                        <Label fx:id="S23Price" alignment="CENTER" text="\$price" BorderPane.alignment="CENTER">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                     </bottom>
+                     <center>
+                        <Label fx:id="S23Label" alignment="TOP_CENTER" text="Property Name" textAlignment="CENTER" wrapText="true" BorderPane.alignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="9.0" />
+                           </font>
+                           <padding>
+                              <Insets left="5.0" right="5.0" />
+                           </padding>
+                        </Label>
+                     </center>
+                     <top>
+                        <StackPane maxHeight="-Infinity" minHeight="-Infinity" prefHeight="20.0">
+                           <children>
+                              <HBox alignment="CENTER" fillHeight="false" spacing="2.0" style="-fx-background-color: #FFF102; -fx-border-color: #000; -fx-border-width: 0 0 2px 0;">
+                                 <padding>
+                                    <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+                                 </padding>
+                              </HBox>
+                           </children>
+                        </StackPane>
+                     </top>
+                  </BorderPane>
+                  <StackPane>
+                     <children>
+                        <FlowPane alignment="CENTER" columnHalignment="CENTER" prefWrapLength="60.0" StackPane.alignment="CENTER">
+                           <children>
+                              <FlowPane fx:id="S23Piece" alignment="CENTER" columnHalignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="80.0" prefWidth="60.0" prefWrapLength="60.0" />
+                           </children>
+                        </FlowPane>
+                     </children>
+                     <padding>
+                        <Insets top="10.0" />
+                     </padding>
+                  </StackPane>
+               </children>
+            </StackPane>
+            <StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="80.0" prefWidth="60.0" rotate="180.0" GridPane.columnIndex="6" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+               <children>
+                  <StackPane>
+                     <children>
+                        <FlowPane alignment="CENTER" columnHalignment="CENTER" prefWrapLength="60.0" StackPane.alignment="CENTER">
+                           <children>
+                              <FlowPane fx:id="S22Piece" alignment="CENTER" columnHalignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="80.0" prefWidth="60.0" prefWrapLength="60.0" />
+                           </children>
+                        </FlowPane>
+                     </children>
+                     <padding>
+                        <Insets top="10.0" />
+                     </padding>
+                  </StackPane>
+                  <BorderPane style="-fx-border-color: #000; -fx-border-width: 2px 1px 2px 1px;">
+                     <center>
+                        <Label fx:id="S22Label" alignment="TOP_CENTER" text="Community Chest" textAlignment="CENTER" wrapText="true" BorderPane.alignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="9.0" />
+                           </font>
+                           <padding>
+                              <Insets left="4.0" right="4.0" />
+                           </padding>
+                        </Label>
+                     </center>
+                  </BorderPane>
+               </children>
+            </StackPane>
+            <StackPane rotate="270.0" GridPane.columnIndex="8" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+               <children>
+                  <BorderPane prefHeight="200.0" prefWidth="200.0" style="-fx-border-color: #000; -fx-border-width: 1px 2px 2px 1px;" GridPane.columnIndex="9" GridPane.rowIndex="10">
+                     <center>
+                        <Label fx:id="S24Label" alignment="TOP_CENTER" rotate="-45.0" text="FAILING,    Go to Withdraw" textAlignment="CENTER" wrapText="true" BorderPane.alignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="10.0" />
+                           </font>
+                           <padding>
+                              <Insets left="5.0" right="5.0" />
+                           </padding>
+                        </Label>
+                     </center>
+                  </BorderPane>
+                  <StackPane>
+                     <children>
+                        <FlowPane fx:id="S24Piece" alignment="CENTER" columnHalignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="80.0" prefWidth="60.0" prefWrapLength="60.0" StackPane.alignment="CENTER" />
+                     </children>
+                  </StackPane>
+               </children>
+            </StackPane>
+            <StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="80.0" prefWidth="60.0" rotate="270.0" GridPane.columnIndex="8" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+               <children>
+                  <BorderPane style="-fx-border-color: #000; -fx-border-width: 2px 1px 2px 1px;" GridPane.columnIndex="9" GridPane.rowIndex="10">
+                     <bottom>
+                        <Label fx:id="S25Price" alignment="CENTER" text="\$price" BorderPane.alignment="CENTER">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                     </bottom>
+                     <center>
+                        <Label fx:id="S25Label" alignment="TOP_CENTER" text="Property Name" textAlignment="CENTER" wrapText="true" BorderPane.alignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="9.0" />
+                           </font>
+                           <padding>
+                              <Insets left="5.0" right="5.0" />
+                           </padding>
+                        </Label>
+                     </center>
+                     <top>
+                        <StackPane maxHeight="-Infinity" minHeight="-Infinity" prefHeight="20.0">
+                           <children>
+                              <HBox alignment="CENTER" fillHeight="false" spacing="2.0" style="-fx-background-color: #1EB25A; -fx-border-color: #000; -fx-border-width: 0 0 2px 0;">
+                                 <padding>
+                                    <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+                                 </padding>
+                              </HBox>
+                           </children>
+                        </StackPane>
+                     </top>
+                  </BorderPane>
+                  <StackPane>
+                     <children>
+                        <FlowPane alignment="CENTER" columnHalignment="CENTER" prefWrapLength="60.0" StackPane.alignment="CENTER">
+                           <children>
+                              <FlowPane fx:id="S25Piece" alignment="CENTER" columnHalignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="80.0" prefWidth="60.0" prefWrapLength="60.0" />
+                           </children>
+                        </FlowPane>
+                     </children>
+                     <padding>
+                        <Insets top="10.0" />
+                     </padding>
+                  </StackPane>
+               </children>
+            </StackPane>
+            <StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="80.0" prefWidth="60.0" rotate="270.0" GridPane.columnIndex="8" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+               <children>
+                  <BorderPane style="-fx-border-color: #000; -fx-border-width: 2px 1px 2px 1px;" GridPane.columnIndex="9" GridPane.rowIndex="10">
+                     <bottom>
+                        <Label fx:id="S27Price" alignment="CENTER" text="\$price" BorderPane.alignment="CENTER">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                     </bottom>
+                     <center>
+                        <Label fx:id="S27Label" alignment="TOP_CENTER" text="Property Name" textAlignment="CENTER" wrapText="true" BorderPane.alignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="9.0" />
+                           </font>
+                           <padding>
+                              <Insets left="5.0" right="5.0" />
+                           </padding>
+                        </Label>
+                     </center>
+                     <top>
+                        <StackPane maxHeight="-Infinity" minHeight="-Infinity" prefHeight="20.0">
+                           <children>
+                              <HBox alignment="CENTER" fillHeight="false" spacing="2.0" style="-fx-background-color: #1EB25A; -fx-border-color: #000; -fx-border-width: 0 0 2px 0;">
+                                 <padding>
+                                    <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+                                 </padding>
+                              </HBox>
+                           </children>
+                        </StackPane>
+                     </top>
+                  </BorderPane>
+                  <StackPane>
+                     <children>
+                        <FlowPane alignment="CENTER" columnHalignment="CENTER" prefWrapLength="60.0" StackPane.alignment="CENTER">
+                           <children>
+                              <FlowPane fx:id="S27Piece" alignment="CENTER" columnHalignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="80.0" prefWidth="60.0" prefWrapLength="60.0" />
+                           </children>
+                        </FlowPane>
+                     </children>
+                     <padding>
+                        <Insets top="10.0" />
+                     </padding>
+                  </StackPane>
+               </children>
+            </StackPane>
+            <StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="80.0" prefWidth="60.0" rotate="270.0" GridPane.columnIndex="8" GridPane.halignment="CENTER" GridPane.rowIndex="5" GridPane.valignment="CENTER">
+               <children>
+                  <BorderPane style="-fx-border-color: #000; -fx-border-width: 2px 1px 2px 1px;" GridPane.columnIndex="9" GridPane.rowIndex="10">
+                     <bottom>
+                        <Label fx:id="S29Price" alignment="CENTER" text="\$price" BorderPane.alignment="CENTER">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                     </bottom>
+                     <center>
+                        <Label fx:id="S29Label" alignment="TOP_CENTER" text="Property Name" textAlignment="CENTER" wrapText="true" BorderPane.alignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="9.0" />
+                           </font>
+                           <padding>
+                              <Insets left="5.0" right="5.0" />
+                           </padding>
+                        </Label>
+                     </center>
+                     <top>
+                        <StackPane maxHeight="-Infinity" minHeight="-Infinity" prefHeight="20.0">
+                           <children>
+                              <HBox alignment="CENTER" fillHeight="false" spacing="2.0" style="-fx-background-color: #0072B8; -fx-border-color: #000; -fx-border-width: 0 0 2px 0;">
+                                 <padding>
+                                    <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+                                 </padding>
+                              </HBox>
+                           </children>
+                        </StackPane>
+                     </top>
+                  </BorderPane>
+                  <StackPane>
+                     <children>
+                        <FlowPane alignment="CENTER" columnHalignment="CENTER" prefWrapLength="60.0" StackPane.alignment="CENTER">
+                           <children>
+                              <FlowPane fx:id="S29Piece" alignment="CENTER" columnHalignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="80.0" prefWidth="60.0" prefWrapLength="60.0" />
+                           </children>
+                        </FlowPane>
+                     </children>
+                     <padding>
+                        <Insets top="10.0" />
+                     </padding>
+                  </StackPane>
+               </children>
+            </StackPane>
+            <StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="80.0" prefWidth="60.0" rotate="270.0" GridPane.columnIndex="8" GridPane.halignment="CENTER" GridPane.rowIndex="7" GridPane.valignment="CENTER">
+               <children>
+                  <BorderPane style="-fx-border-color: #000; -fx-border-width: 2px 1px 2px 1px;" GridPane.columnIndex="9" GridPane.rowIndex="10">
+                     <bottom>
+                        <Label fx:id="S31Price" alignment="CENTER" text="\$price" BorderPane.alignment="CENTER">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                     </bottom>
+                     <center>
+                        <Label fx:id="S31Label" alignment="TOP_CENTER" text="Property Name" textAlignment="CENTER" wrapText="true" BorderPane.alignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="9.0" />
+                           </font>
+                           <padding>
+                              <Insets left="5.0" right="5.0" />
+                           </padding>
+                        </Label>
+                     </center>
+                     <top>
+                        <StackPane maxHeight="-Infinity" minHeight="-Infinity" prefHeight="20.0">
+                           <children>
+                              <HBox alignment="CENTER" fillHeight="false" spacing="2.0" style="-fx-background-color: #0072B8; -fx-border-color: #000; -fx-border-width: 0 0 2px 0;">
+                                 <padding>
+                                    <Insets bottom="4.0" left="4.0" right="4.0" top="4.0" />
+                                 </padding>
+                              </HBox>
+                           </children>
+                        </StackPane>
+                     </top>
+                  </BorderPane>
+                  <StackPane>
+                     <children>
+                        <FlowPane alignment="CENTER" columnHalignment="CENTER" prefWrapLength="60.0" StackPane.alignment="CENTER">
+                           <children>
+                              <FlowPane fx:id="S31Piece" alignment="CENTER" columnHalignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="80.0" prefWidth="60.0" prefWrapLength="60.0" />
+                           </children>
+                        </FlowPane>
+                     </children>
+                     <padding>
+                        <Insets top="10.0" />
+                     </padding>
+                  </StackPane>
+               </children>
+            </StackPane>
+            <StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="80.0" prefWidth="60.0" rotate="270.0" GridPane.columnIndex="8" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="CENTER">
+               <children>
+                  <BorderPane style="-fx-border-color: #000; -fx-border-width: 2px 1px 2px 1px;" GridPane.columnIndex="9" GridPane.rowIndex="10">
+                     <center>
+                        <Label fx:id="S26Label" alignment="TOP_CENTER" text="Community Chest" textAlignment="CENTER" wrapText="true" BorderPane.alignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="9.0" />
+                           </font>
+                           <padding>
+                              <Insets left="4.0" right="4.0" />
+                           </padding>
+                        </Label>
+                     </center>
+                  </BorderPane>
+                  <StackPane>
+                     <children>
+                        <FlowPane alignment="CENTER" columnHalignment="CENTER" prefWrapLength="60.0" StackPane.alignment="CENTER">
+                           <children>
+                              <FlowPane fx:id="S26Piece" alignment="CENTER" columnHalignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="80.0" prefWidth="60.0" prefWrapLength="60.0" />
+                           </children></FlowPane>
+                     </children>
+                     <padding>
+                        <Insets top="10.0" />
+                     </padding>
+                  </StackPane>
+               </children>
+            </StackPane>
+            <StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="80.0" prefWidth="60.0" rotate="270.0" GridPane.columnIndex="8" GridPane.halignment="CENTER" GridPane.rowIndex="4" GridPane.valignment="CENTER">
+               <children>
+                  <BorderPane style="-fx-border-color: #000; -fx-border-width: 2px 1px 2px 1px;" GridPane.columnIndex="9" GridPane.rowIndex="10">
+                     <center>
+                        <Label fx:id="S28Label" alignment="TOP_CENTER" text="Chance" textAlignment="CENTER" wrapText="true" BorderPane.alignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="10.0" />
+                           </font>
+                           <padding>
+                              <Insets left="5.0" right="5.0" />
+                           </padding>
+                        </Label>
+                     </center>
+                  </BorderPane>
+                  <StackPane>
+                     <children>
+                        <FlowPane alignment="CENTER" columnHalignment="CENTER" prefWrapLength="60.0" StackPane.alignment="CENTER">
+                           <children>
+                              <FlowPane fx:id="S28Piece" alignment="CENTER" columnHalignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="80.0" prefWidth="60.0" prefWrapLength="60.0" />
+                           </children>
+                        </FlowPane>
+                     </children>
+                     <padding>
+                        <Insets top="10.0" />
+                     </padding>
+                  </StackPane>
+               </children>
+            </StackPane>
+            <StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="80.0" prefWidth="60.0" rotate="270.0" GridPane.columnIndex="8" GridPane.halignment="CENTER" GridPane.rowIndex="6" GridPane.valignment="CENTER">
+               <children>
+                  <BorderPane style="-fx-border-color: #000; -fx-border-width: 2px 1px 2px 1px;" GridPane.columnIndex="9" GridPane.rowIndex="10">
+                     <bottom>
+                        <Label fx:id="S30Price" alignment="CENTER" text="\$cost" BorderPane.alignment="CENTER">
+                           <font>
+                              <Font size="10.0" />
+                           </font>
+                        </Label>
+                     </bottom>
+                     <center>
+                        <Label fx:id="S30Label" alignment="TOP_CENTER" text="Byu new LAPTOP" textAlignment="CENTER" wrapText="true" BorderPane.alignment="CENTER">
+                           <font>
+                              <Font name="System Bold" size="10.0" />
+                           </font>
+                           <padding>
+                              <Insets left="5.0" right="5.0" />
+                           </padding>
+                        </Label>
+                     </center>
+                  </BorderPane>
+                  <StackPane>
+                     <children>
+                        <FlowPane alignment="CENTER" columnHalignment="CENTER" prefWrapLength="60.0" StackPane.alignment="CENTER">
+                           <children>
+                              <FlowPane fx:id="S30Piece" alignment="CENTER" columnHalignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="80.0" prefWidth="60.0" prefWrapLength="60.0" />
+                           </children>
+                        </FlowPane>
+                     </children>
+                     <padding>
+                        <Insets top="10.0" />
+                     </padding>
+                  </StackPane>
+               </children>
+            </StackPane>
+            <Label alignment="CENTER" contentDisplay="CENTER" maxWidth="1.7976931348623157E308" prefHeight="70.0" prefWidth="198.0" rotate="-45.0" snapToPixel="false" text="Argopoly" textAlignment="CENTER" textFill="#0b1c9e" GridPane.columnSpan="2147483647" GridPane.halignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.rowSpan="2147483647" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS">
+               <font>
+                  <Font name="Algerian" size="50.0" />
+               </font>
+            </Label>
+            <BorderPane fx:id="argLoadWindow" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="215.0" prefWidth="491.0" style="-fx-background-color: #FFF;" visible="false" GridPane.columnSpan="2147483647" GridPane.halignment="CENTER" GridPane.rowSpan="2147483647" GridPane.valignment="CENTER">
+               <bottom>
+                  <HBox alignment="CENTER" prefHeight="57.0" prefWidth="491.0" style="-fx-background-color: #1256A9; -fx-border-radius: 0 0 10 10; -fx-background-radius: 0 0 10 10;" BorderPane.alignment="CENTER">
+                     <children>
+                        <Button fx:id="newGameButton" contentDisplay="CENTER" mnemonicParsing="false" onAction="#startGame" style="-fx-background-color: #1256A9;" text="NEW" textFill="#23f84a">
+                           <font>
+                              <Font name="Arial Rounded MT Bold" size="30.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="exitGameButton" contentDisplay="CENTER" mnemonicParsing="false" onAction="#exitGame" style="-fx-background-color: #1256A9;" text="EXIT" textFill="#23f84a">
+                           <font>
+                              <Font name="Arial Rounded MT Bold" size="30.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </HBox>
+               </bottom>
+               <center>
+                  <Label text="Start New Game or Exit" textFill="#462dc6" BorderPane.alignment="CENTER">
+                     <font>
+                        <Font name="Agency FB" size="36.0" />
+                     </font>
+                  </Label>
+               </center>
+               <top>
+                  <VBox alignment="CENTER" prefHeight="90.0" prefWidth="491.0" style="-fx-background-color: #1256A9; -fx-background-radius: 10 10 0 0;" BorderPane.alignment="CENTER">
+                     <children>
+                        <Label text="Welcome to Argopoly!" textFill="#23f84a">
+                           <font>
+                              <Font name="Arial Rounded MT Bold" size="28.0" />
+                           </font>
+                        </Label>
+                        <Label text="The Player least in debt Wins!" textFill="WHITE">
+                           <font>
+                              <Font size="18.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </VBox>
+               </top>
+            </BorderPane>
+            <BorderPane fx:id="argNumPlayerWindow" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="215.0" prefWidth="450.0" style="-fx-background-color: #FFF;" visible="false" GridPane.columnSpan="2147483647" GridPane.halignment="CENTER" GridPane.rowSpan="2147483647" GridPane.valignment="CENTER">
+               <bottom>
+                  <HBox alignment="CENTER" prefHeight="53.0" prefWidth="450.0" style="-fx-background-color: #1256A9; -fx-border-radius: 0 0 10 10; -fx-background-radius: 0 0 10 10;" BorderPane.alignment="CENTER">
+                     <children>
+                        <Button fx:id="argCreatePlayerNext" mnemonicParsing="false" onAction="#createPlayers" style="-fx-background-color: #1256A9;" text="NEXT" textFill="#23f84a">
+                           <font>
+                              <Font name="Arial Rounded MT Bold" size="30.0" />
+                           </font>
+                        </Button>
+                        <Button fx:id="argCreatePlayerCancel" mnemonicParsing="false" onAction="#closeCreatePlayer" style="-fx-background-color: #1256A9;" text="CANCEL" textFill="#23f84a">
+                           <font>
+                              <Font name="Arial Rounded MT Bold" size="30.0" />
+                           </font>
+                        </Button>
+                     </children>
+                  </HBox>
+               </bottom>
+               <center>
+                  <VBox alignment="CENTER" prefHeight="104.0" prefWidth="450.0" BorderPane.alignment="CENTER">
+                     <children>
+                        <Label text="Select the Number of Players (4Max)" textFill="#1256a9">
+                           <font>
+                              <Font name="Agency FB" size="30.0" />
+                           </font>
+                        </Label>
+                        <ComboBox fx:id="argNumOfPlayers" prefWidth="150.0" visibleRowCount="4" />
+                     </children>
+                  </VBox>
+               </center>
+               <top>
+                  <Pane prefHeight="70.0" prefWidth="450.0" style="-fx-background-color: #1256A9; -fx-border-radius: 10 10 0 0; -fx-background-radius: 10 10 0 0;" BorderPane.alignment="CENTER">
+                     <children>
+                        <Label alignment="CENTER" layoutX="136.0" layoutY="11.0" text="Argopoly" textFill="#23f84a">
+                           <font>
+                              <Font name="Arial Rounded MT Bold" size="40.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+               </top>
+            </BorderPane>
+         </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <BorderPane.margin>
+            <Insets />
+         </BorderPane.margin>
+      </GridPane>
+   </center>
+</BorderPane>
